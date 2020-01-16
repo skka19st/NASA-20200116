@@ -1,7 +1,7 @@
 
 function inputDate(){
-  //let dateOnMars = document.getElementById("id");
-  let dateOnMars = "2016-05-29"; // här ska datumet vara
+  let dateOnMars = document.getElementById("date").value;
+  //let dateOnMars = "2016-05-29"; // här ska datumet vara
 
   fetch("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=" + dateOnMars + "&api_key=0aQk19tdETuiM8F0sa5NCmVwNGTHILMnPWp9lO0j")
   .then(function(response){return response.json()})
