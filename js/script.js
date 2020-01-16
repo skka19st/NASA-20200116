@@ -19,3 +19,4 @@ fetch("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_dat
 
   console.log('Error! Please try again');
 });
+
