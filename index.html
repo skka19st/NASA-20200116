@@ -33,6 +33,12 @@
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pt-3">
               <div class="card padding-card">
                   <div class="card-body">
+                    <label>Rover</label>
+                    <select id="rover">
+                      <option value="Curiosity">Curiosity</option>
+                      <option value="Spirit">Spirit</option>
+                      <option value="Opportunity">Opportunity</option>
+                    </select>
                     <label for="">Date</label>
                     <input type="date" min="2012-09-10" max="2020-01-17" id="date">
                     <button onclick="inputDate()">Välj</button>
@@ -41,13 +47,12 @@
           </div>
     </div>
 
-    <div class="container image">
-      <div class="row">
-        <div class="col-md-6 offset-md-3">
+        
+          <h1 id="show-rover-name"></h1>
           <div id="rover-image"></div>
         </div>
       </div>
-    </div>
+    
 
 </article>
     
